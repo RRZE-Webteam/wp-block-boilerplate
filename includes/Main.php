@@ -15,7 +15,7 @@ class Main
     public function __construct($pluginFile)
     {
         $this->pluginFile = $pluginFile;
-        add_action('wp_enqueue_scripts', [$this, 'enqueueScripts']);
+        // add_action('wp_enqueue_scripts', [$this, 'enqueueScripts']);
 
         new Blocks();
         new Patterns();
